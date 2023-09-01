@@ -14,19 +14,9 @@ figure {
 }
 </style>
 
-I am an Assistant Professor in the Department of Computer Engineering at the Rochester Institute of Technology (RIT). My research centers on hardware security with an emphasis on provably secure system design and design automation algorithms. Prior to my academic career, I researched high-frequency, wide-band digital signal processing system architecture at the U.S. Naval Research Laboratory where I served as the lead digital designer for a currently-fielded naval system. I have published more than 20 peer-reviewed publications, two of which have been nominated for Best Paper, including most recently at the 2021 Design Automation Conference (DAC). I have been recognized as an ARCS Scholar, a Future Faculty Fellow, and an Edison Memorial Graduate Fellow. I received my PhD in Electrical Engineering from the University of Maryland, College Park in 2022.
+Rahul Vishwakarma is a Graduate Student and working as a research assistant in the domain of Machine Learning at California State University Long Beach. He holds a Bachelor of Technology in Computer Science from SRM University, India (2009). 
 
-Research Focus
-------
+He worked as a Software Engineer at Dell Technologies (formerly EMC2), where he drove solutions for Data Protection and helped customers protect their data with Data Domain (de-duplication based backup storage), leveraging machine learning across the product stack. He has been recognized as one of the top US Patent filers across APJ, EMEA, and LATAM (Latin America) for two consecutive years FY20 and FY21, and has received the prestigious Milestone Award at Dell Technologies. The U.S. Patent 11,513,931 (issued November 29, 2022) has been implemented in Dell Power Protect Data Domain. Prior to this, he worked at Hewlett Packard Enterprise where he designed HPE ConvergedSystem for SAP HANA reference architecture. He loves solving challenging problems across interdisciplinary domains.
 
-<b>Primary Research Areas:</b> Hardware Security, Digital VLSI/CAD, and Computer Architecture <br/>
-
-My research centers on the design of secure, trustworthy, and reliable electronic systems with an emphasis on hardware security, design automation, and artificial intelligence. Currently, I am working to address the security ramifications of outsourcing integrated circuit (IC) fabrication to untrusted manufacturing facilities. Such outsourcing enables companies to obtain high-end performance at a modest cost, but exposes the entire design of an IC to potentially malicious facilities, raising concerns of intellectual property (IP) piracy, reverse engineering, and malicious hardware modification. My work in this domain uniquely explores solutions with a focus on provable, system-level security guarantees, ranging from security-aware design automation algorithms that optimally construct architectures to the theoretical modeling of hardware security guarantees. At the core of all of my work is the use of deep and rigorous mathematical analysis and modeling.
-
-
-Prospective Students
-------
-
-<b>I am always looking to recruit and support highly motivated students!</b> If you are interested in working with me on high-impact problems in hardware security, please email me your resume. If you are currently an undergraduate student at RIT interested in hardware security research, please reach out to me as well.
 
 
