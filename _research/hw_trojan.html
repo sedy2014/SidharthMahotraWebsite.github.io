@@ -1,0 +1,11 @@
+---
+layout: archive
+collection: research
+title: "Hardware Trojan Detection and Mitigation"
+permalink: /research/hw_trojan
+author_profile: true
+---
+
+Driven by the rising cost and complexity of integrated circuit (IC) fabrication, the semiconductor industry has become increasingly reliant on unaffiliated and untrusted entities for IC production. These untrusted entities are capable of inserting malicious hardware, known as <i>hardware trojans</i>, within an IC during fabrication. These malicious modifications can serve a wide variety of purposes including malfunctions in the field, lower reliability, confidential data leakage, and system destruction in specific conditions. They are also quite pernicious as they are difficult to detect with standard functional verification procedures and can often bypass software-implemented security. Therefore, hardware trojans are a massive security risk, especially for security-critical applications. <p>
+
+Currently, the threat of trojan insertion drives many companies and government agencies to fabricate custom ICs with <i>trusted foundries</i> which undergo an extensive and costly evaluation process through the Department of Defense Trusted Foundry Program. Unfortunately, these foundries utilize larger and more dated technology nodes. The smallest node presently available for trusted fabrication is 65nm. This entails a sizable performance degradation over the 5-7nm processes offered commercially, thereby severely limiting the capabilities of military systems. To achieve high-end performance for cutting edge security-critical applications, one must turn to commercially available and untrusted foundries. However, doing so necessitates strong trojan detection capabilities to mitigate security risks. With strong trojan detection, the design houses can reap the performance and monetary benefits of commercial IC fabrication without the corresponding security risks. Our work in this space explores strategies for hardware verification, including both trojan detection and prevention schemes, with a particular emphasis on theoretically-rigorous and provable trojan-mitigation guarantees against varied points of trojan origination including IP vendors, untrusted foundries, and hardware integrators.

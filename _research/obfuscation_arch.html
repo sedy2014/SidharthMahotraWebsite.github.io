@@ -1,0 +1,32 @@
+---
+layout: archive
+collection: research
+title: "Reverse Engineering Resistant Architecture Design"
+permalink: /research/obfuscation_arch
+author_profile: true
+---
+
+The need for high-end performance and cost savings has driven hardware design houses to outsource integrated circuit (IC) fabrication to untrusted manufacturing facilities. During fabrication, the entire chip design is exposed to these potentially malicious facilities, raising concerns of intellectual property (IP) piracy, reverse engineering, and malicious hardware modification. This is a major concern of both government and private organizations, especially in the context of military hardware. Logic obfuscation is a popular approach to mitigate these hardware security threats. Obfuscation techniques lock a circuit by inserting extra key logic into combinational blocks. The resulting design only exhibits its intended functionality when a correct key is applied after fabrication. Without a functional IC, malicious entities cannot obtain design secrets, alleviating security concerns. <p>
+
+<style>
+figure {
+    display: block;
+}
+figure figcaption {
+    font-size: 18px;
+    text-align: center;
+}
+</style>
+
+<figure>
+<center><img src="/images/logic_locking.png" alt="Logic locking overview." style="max-width:600px"></center>
+<figcaption>Logic locking (also called logic obfuscation) example.</figcaption>
+</figure>
+
+The majority of logic obfuscation research centers on evaluating gate-level constructions with module-level criteria. However, obfuscated modules do not operate in isolation, but rather as a small part of a complex system. To protect an IC from a malicious foundry, the IC as a whole must be secured. By considering only module-level criteria, prior research ignores key architectural context that greatly impacts the efficacy of obfuscation, such as the interaction between modules and application error resilience. Our research demonstrates that this architectural context severely limits hardware security guarantees. To show this, we derived a fundamental theoretical trade-off underlying all obfuscation techniques and expanded on this by developing an open-source obfuscation simulator, called ObfusGEM, and applying the derived theoretical trade-off to guide a design space exploration of obfuscation. This exploration showed that state-of-the-art obfuscation schemes, which do not consider architectural context, were unable to secure each evaluated IC. These findings drive our current research in this area: 1) Developing security-aware architecture design practices to improve security and 2) Developing novel obfuscation strategies with specific application-classes in mind. 
+
+
+<figure>
+<center><img src="/images/obfusgem.png" alt="ObfusGEM simulation framework." style="max-width:800px"></center>
+<figcaption>The ObfusGEM simulation framework to evaluate logic obfuscation at the architecture level in processor ICs.</figcaption>
+</figure>

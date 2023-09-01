@@ -1,0 +1,24 @@
+---
+layout: archive
+collection: research
+title: "Reverse Engineering Resistant Physical Design Strategies"
+permalink: /research/secure_physical
+author_profile: true
+---
+
+Recent research has demonstrated that contactless electro-optical probing, a common IC test and evaluation technique, can be used to extract hardware keys from a circuit even when tamper-proof memory elements are used. This form of physical attack represents a fundamental shift in the hardware security threat model, particularly for design obfuscation, where such physical attacks were largely considered to be out-of-scope. These attacks are unique because they exploit the physical design (i.e. layout, placement, routing, etc.) of a circuit to compromise security. In order to protect our critical infrastructure and military technology from these novel security threats, we must fundamentally shift our view of hardware security to include an IC's physical design. This opens the door to a new generation of research to rethink the nature of reverse engineering resistant design practices through the lens of physical design. Our work in this space develops rigorous theoretical models for contactless-probing-based attackers to infer secret keys, opening the door to secure physical design in the next generation of ICs.
+
+<style>
+figure {
+    display: block;
+}
+figure figcaption {
+    font-size: 18px;
+    text-align: center;
+}
+</style>
+
+<figure>
+<center><img src="/images/eofm_ex.png" alt="Contactless probing example." style="max-width:300px"></center>
+<figcaption>Contactless electro-optical probing, a common technique for IC reverse engineering and failure analysis.</figcaption>
+</figure>

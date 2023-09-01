@@ -1,0 +1,31 @@
+---
+layout: archive
+collection: research
+title: "Security-Aware Electronic Design Automation"
+permalink: /research/secure_eda
+author_profile: true
+---
+
+Nearly every hardware system is developed in a high-level language, such as Verilog, and converted into a gate-level netlist via some form of automated synthesis. This provides two benefits. 1) Designers can focus primarily on algorithm development, automating many challenges caused by the scale of modern ICs. 2) Design automation tools automate a wide array of optimizations to trade off design goals (power, area, timing, etc.) and ensure that all requirements are met. However, much hardware security research, particularly in the space of design obfuscation, secures the gate-level netlists produced following synthesis, forgoing traditional design automation processes almost entirely. Given the scale modern ICs, on the order of billions of transistors, efficient design automation is a necessity. The lack of security-aware design automation algorithms severely limits the adoption of many security schemes, such as logic obfuscation, in practice. <p>
+
+<style>
+figure {
+    display: block;
+}
+figure figcaption {
+    font-size: 18px;
+    text-align: center;
+}
+</style>
+
+<figure>
+<center><img src="/images/high_level_synthesis_overview.png" alt="High level synthesis overview." style="max-width:800px"></center>
+<figcaption>High-level synthesis (HLS).</figcaption>
+</figure>
+
+Our research has been among the first to consider obfuscation-aware high-level synthesis algorithms. In particular, we identified a link between the resource binding phase of high-level synthesis and the efficacy of logic obfuscation. We have used this link to develop security-aware design automation algorithms to optimally bind an architecture for security. These algorithms have been shown to produce a 98.5x improvement in the effectiveness of obfuscation. Our research has also explored the need for independent verification and validation of security-aware design automation tooling and intellectual property, formalizing the principles and procedures to validate security and integrity guarantees. The continued automation of theoretically-robust security-aware design practices is a key focus of our research. In our continued efforts in this domain, we aim to drive the accessibility and efficacy of hardware security guarantees in modern computing systems. <p>
+
+<figure>
+<center><img src="/images/sa_binding_flow.png" alt="Security-aware resource binding design flow." style="max-width:800px"></center>
+<figcaption>Proposed security-aware resource binding flow to algorithmically implement logic obfuscation.</figcaption>
+</figure>
