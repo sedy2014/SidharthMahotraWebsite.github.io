@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michael Zuzak"
+title                    : "Rahul Vishwakarma"
 title_separator          : "-"
-name                     : &name "Michael Zuzak"
+name                     : &name "Rahul Vishwakarma"
 description              : &description "personal description"
 url                      : https://rahvis.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Michael Zuzak"
-  avatar           : "zuzak_headshot.jpeg"
-  bio              : "Assistant Professor <br> Department of Computer Engineering <br> Rochester Institute of Technology"
-  location         : "Rochester, NY"
+  name             : "Rahul Vishwakarma"
+  avatar           : "rahul_headshot.jpeg"
+  bio              : "Research Assistant" 
+  location         : "Los Angeles, CA"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=dESHYYcAAAAJ&hl=en&oi=ao"
-  email            : "mjzeec@rit.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=F2eTslkAAAAJ&hl=en&oi=ao"
+  email            : "rahuldeo.vishwakarma01@student.csulb.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "mzuzak"
+  github           : "rahvis"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "rahulvishwakarma"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
