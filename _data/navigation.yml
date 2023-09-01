@@ -1,23 +1,15 @@
 # main links links
 main:
-  - title: "Research"
-    url: /research/
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Patents"
+    url: /patents/    
 
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Awards and Service"
-    url: /awards/
-
-  - title: "Prospective Students"
-    url: /students/
-    
   - title: "CV"
     url: /cv/
     
