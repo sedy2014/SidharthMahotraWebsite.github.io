@@ -184,15 +184,6 @@ collections:
   patents:
     output: true
     permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  awards:
-    output: true
-    permalink: /:collection/:path/
   contact:
     output: true
     permalink: /:collection/:path/
@@ -227,6 +218,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _patents
+  - scope:
+      path: ""
+      type: patents
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -245,14 +245,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+
 
 # Sass/SCSS
 sass:
