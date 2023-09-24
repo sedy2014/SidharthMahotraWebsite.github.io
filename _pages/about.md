@@ -16,7 +16,7 @@ figure {
 
 Rahul Vishwakarma is a Graduate Student in Computer Science and working as a research assistant in the domain of Machine Learning at Computer Architecture, Reliability, and Security Laboratory (CARS-Lab), California State University Long Beach. His thesis focus on designing storage security for wearable devices and mitigating attacks from evolving hardware trojans.
 
-He brings expertise in applied machine learning leveraging statistical and deep learning approaches focusing on uncertainity quantification. 
+He brings expertise in applied machine learning leveraging statistical and deep learning approaches focusing on uncertainity quantification. [GitHub: Awesome Conformal Prediction](https://github.com/valeman/awesome-conformal-prediction).
 
 Currently, he is working on causality aware time series classification and probabilistic inference for Hemodialysis undere the supervision of [Dr. James C. Leiter](https://geiselmed.dartmouth.edu/faculty/facultydb/view.php/?uid=186) and [Mahshid Fardadi](https://ppfp.ucop.edu/info/fellowship-recipients/fellows-pages/fardadi-mahshid.html). 
 
